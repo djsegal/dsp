@@ -12,4 +12,18 @@ In order to join Blue Man Group, you have to be male and between 5′10″ and 6
 
 # Solution
 
-Communicate the problem, how you solved it, and the solution, within each of the following markdown files. (You can include code blocks and images within markdown.)
+According to the BRFSS data, **~35%** of American males fulfill the Blue Man Group height requirements.
+
+```
+mu = 178
+sigma = 7.7
+dist = scipy.stats.norm(loc=mu, scale=sigma)
+
+low = dist.cdf(177.8)    # 5'10"
+high = dist.cdf(185.4)   # 6'1"
+```
+
+```
+> high-low
+0.3420946829459531
+```
