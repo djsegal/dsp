@@ -23,7 +23,7 @@ thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Random variate', ylabel='PMF')
 ```
 
-![plot](4_pmf.png)
+![plot](figures/4_pmf.png)
 
 ```
 cdf = thinkstats2.Cdf(t)
@@ -31,4 +31,4 @@ thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random variate', ylabel='CDF')
 ```
 
-![plot](4_cdf.png)
+![plot](figures/4_cdf.png)
